@@ -1,0 +1,82 @@
+<html>
+<head>
+
+<meta charset="UTF-8" />
+        <title>jQT.Floaty</title>
+        <style type="text/css" media="screen">@import "css/jqtouch.css";</style>
+        <script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jqtouch.min.js" type="text/javascript" charset="utf-8"></script
+		
+		<script src="js/jqt.autotitles.min.js" type="application/x-javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+            var jQT = new $.jQTouch({
+                icon: 'jqtouch.png',
+                addGlossToIcon: false,
+                startupScreen: 'jqt_startup.png',
+                statusBar: 'black'
+            });
+        </script>
+</head>
+<body>
+	<div id="jqt">
+		<div id="page1">
+			<div id="toolbar">
+			<h1>PLACE FINDER</h1>
+			</div>
+			<ul class="edgetoedge">
+				<li><a href="#page2">HOTELS</a></li>
+				<li><a href="#page3">RESTAURANTS</a></li>
+				<li><a href="#page4">CAMPSITES</a></li>
+				<li><a href="#page5">FAST INDEX</a></li>
+			</ul>
+		</div>
+		
+		<div id="page2">
+			<div id="toolbar">
+			<a href="#" class="back">back</a>
+			<h1>HOTELS REGION SELECTION</h1>
+			</div>
+				<ul>
+					<li><a href="#pagef">NORTHEN REGION</a></li>
+					<li><a href="#pagef">CENTRAL REGION</a></li>
+					<li><a href="#pagef">SOUTHEN REGION</a></li>
+				</ul>
+		</div>
+		
+		<div id="page3">
+			<div id="toolbar">
+			<a href="#" class="back">back</a>
+			<h1>RESATAURANTS REGION SELECTION</h1>
+			</div>
+				<ul>
+					<li><a href="#pagef">NORTHEN REGION</a></li>
+					<li><a href="#pagef">CENTRAL REGION</a></li>
+					<li><a href="#pagef">SOUTHEN REGION</a></li>
+				</ul>
+		</div>
+		
+		<div id="pagef">
+			<div id="toolbar">
+				<a href="#" class="back">back</a>
+				<h1>HOTELS REGION SELECTION</h1>
+			</div>
+				<ul>
+					<li><a href="#pagef2">SUNBIRD HOTEL</a></li>
+					<li><a href="#pagef2">LILONGWE HOTELK</a></li>
+				</ul>
+		</div>
+		
+		<div id="pagef2">
+			<div id="toolbar">
+			<a href="#" class="back">back</a>
+			<h1>RESATAURANTS REGION SELECTION</h1>
+			</div>
+				<p><img src="2.jpg" alt="hotel"/></p>
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
